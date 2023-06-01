@@ -373,27 +373,30 @@ body {
 
     .letter {
         position: absolute;
-        right: 500px;
-        bottom: 42px;
-        width: 70px;
+        width: 30px;
+        bottom: 22px;
+        left: 50%;
+        
     }
     .letter2 {
         position: absolute;
         right: 530px;
-        bottom: 82px;
-        width: 70px;
+        bottom: 41px;
+        left: 48%;
+        width: 30px;
     }
     .mailbox {
         position: absolute;
+        width: 95px;
+        left: 25%;
         bottom: 10px;
-        right: 50%;
-        width: 100px;
+        
     }
     .house {
         position: absolute;
         right: 0;
         bottom: 20px;
-        width: 180px;
+        width: 160px;
     }
     .butterfly {
         position: absolute;
@@ -475,9 +478,9 @@ body {
     }
     .jan1 {
         position: relative;
-        width: 180px;
-        top: 200px;
-        left: 15%;
+        width: 130px;
+        top: 100px;
+        left: 20%;
         display: inline-block;
       }
       
@@ -497,9 +500,9 @@ body {
       }
     .jan2 {
       position: relative;
-      width: 180px;
-      top: 200px;
-      left: 15%;
+      width: 130px;
+      top: 100px;
+      left: 20%;
       display: inline-block;
     }
     
@@ -519,9 +522,9 @@ body {
     }
     .jan3 {
         position: relative;
-        width: 180px;
-        top: 200px;
-        left: 15%;
+        width: 130px;
+        top: 100px;
+        left: 20%;
         display: inline-block;
       }
       
@@ -541,9 +544,9 @@ body {
       }
       .jan4 {
         position: relative;
-        width: 180px;
-        top: 200px;
-        left: 15%;
+        width: 130px;
+        top: 100px;
+        left: 20%;
         display: inline-block;
       }
       
@@ -563,9 +566,9 @@ body {
       }
       .jan5 {
         position: relative;
-        width: 180px;
-        top: 200px;
-        left: 15%;
+        width: 130px;
+        top: 100px;
+        left: 20%;
         display: inline-block;
       }
       
