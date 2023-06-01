@@ -2,7 +2,7 @@ body {
     background: hsl(0, 0%, 100%);
 }
 
-.header {
+/* .header {
     display: flex;
     justify-content: space-between;
     background-color: rgb(208, 191, 171);
@@ -10,12 +10,45 @@ body {
     height: 90px;
     width: 100%;
     z-index: 999;
+} */
+
+.gogo {
+    position: absolute;
+    top: 38vh;
+    right: 400px;
 }
 
-.heroimg{
-    background-image: url(home.png);
-    background-size: cover;
-    width: 100%;
+.cloud {
+    position: absolute;
+    top: 60px;
+    right: 160px;
+    width: 250px;
+}
+
+.cloud2 {
+    position: absolute;
+    top: 35px;
+    right: 360px;
+    width: 230px;
+}
+
+.tree {
+    position: absolute;
+    bottom: 40px;
+    width: 250px;
+    left: 30px;
+}
+.mountain {
+    position: absolute;
+    left: 280px;
+    bottom: 40px;
+    width: 800px;
+}
+.house {
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    width: 400px;
 }
 
 .dog {
@@ -24,14 +57,14 @@ body {
     animation: dog 5s linear infinite;
 }
 
-.mask {
-    position: absolute;
+/* .mask {
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 165px;
     overflow: hidden;
 
-}
+} */
 
 @keyframes dog {
     from {
@@ -43,8 +76,9 @@ body {
 }
 
 .logo {
-    top: 50%;
-    left: 100px;
+    position: relative;
+    width: 90px;
+    left: 30px;
 }
 
 .button {
@@ -55,9 +89,9 @@ body {
 }
 
 .flower-img {
-    top: 50vh;
+    top: 35vh;
     left: 50vh;
-    width: 45px;
+    width: 60px;
     animation: rotate 2.5s linear infinite;
 }
 @keyframes rotate {
@@ -71,29 +105,54 @@ body {
 
 .flower {
     position: absolute;
-    top: 50vh;
+    top: 35vh;
     left: 42%;
 }
 
 .text-box {
     position: absolute;
-    top: 25vh;
+    font-size: 50px;
+    top: 20vh;
     left: 40%;
-    width: 400px;
+    height: 10vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .road {
-    display: flex;
+    position: absolute;
     background: #433d3d;
-    height: 30px;
+    height: 40px;
     bottom: 0;
     width: 100%;
 }
 
+.row {
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.header2-2 {
+    position: absolute;
+}
+
+/* .text-box2 {
+    margin-bottom: 10%;
+    align-items: center;
+    width: 400px;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+.footer {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
 .text-box2 {
     position: absolute;
-    bottom: 15vh;
+    margin-bottom: 0%;
     left: 42%;
     width: 400px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
