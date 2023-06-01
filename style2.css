@@ -124,7 +124,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .page2-2 {
-    background-color: #fbe8bf;
+    background-color: #003f4b;
 }
 .long-image-container {
   position: absolute;
@@ -153,7 +153,7 @@ body {
   }
 }
 .page2-3 {
-    background: #e7d5b8;
+    background: #ffffff;
     height: 100vh;
 }
 .title1 {
@@ -166,10 +166,9 @@ body {
     color: rgb(45, 45, 45);
     top: 110px;
 }
-
-.jan2 {
+.jan1 {
     position: relative;
-    width: 300px;
+    width: 200px;
     top: 280px;
     left: 250px;
     display: inline-block;
@@ -181,15 +180,134 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(250, 195, 223, 0.5); /* 设置透明度为0.5的黑色背景 */
+    background-color: rgba(175, 175, 175, 0.5); /* 设置透明度为0.5的黑色背景 */
     opacity: 0; /* 初始状态下透明图层隐藏 */
     transition: opacity 0.3s ease; /* 添加过渡效果 */
   }
   
-  .jan2:hover .overlay {
+  .jan1:hover .overlay {
     opacity: 1; /* 鼠标悬停时显示透明图层 */
   }
+.jan2 {
+  position: relative;
+  width: 200px;
+  top: 280px;
+  left: 250px;
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(175, 175, 175, 0.5); /* 设置透明度为0.5的黑色背景 */
+  opacity: 0; /* 初始状态下透明图层隐藏 */
+  transition: opacity 0.3s ease; /* 添加过渡效果 */
+}
+
+.jan2:hover .overlay {
+  opacity: 1; /* 鼠标悬停时显示透明图层 */
+}
+.jan3 {
+    position: relative;
+    width: 200px;
+    top: 280px;
+    left: 250px;
+    display: inline-block;
+  }
   
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(175, 175, 175, 0.5); /* 设置透明度为0.5的黑色背景 */
+    opacity: 0; /* 初始状态下透明图层隐藏 */
+    transition: opacity 0.3s ease; /* 添加过渡效果 */
+  }
+  
+  .jan3:hover .overlay {
+    opacity: 1; /* 鼠标悬停时显示透明图层 */
+  }
+  .jan4 {
+    position: relative;
+    width: 200px;
+    top: 280px;
+    left: 250px;
+    display: inline-block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(175, 175, 175, 0.5); /* 设置透明度为0.5的黑色背景 */
+    opacity: 0; /* 初始状态下透明图层隐藏 */
+    transition: opacity 0.3s ease; /* 添加过渡效果 */
+  }
+  
+  .jan4:hover .overlay {
+    opacity: 1; /* 鼠标悬停时显示透明图层 */
+  }
+  .jan5 {
+    position: relative;
+    width: 200px;
+    top: 280px;
+    left: 250px;
+    display: inline-block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(175, 175, 175, 0.5); /* 设置透明度为0.5的黑色背景 */
+    opacity: 0; /* 初始状态下透明图层隐藏 */
+    transition: opacity 0.3s ease; /* 添加过渡效果 */
+  }
+  
+  .jan5:hover .overlay {
+    opacity: 1; /* 鼠标悬停时显示透明图层 */
+  }
+
+.page2-4 {
+    background: #ffffff;
+    height: 100vh;
+}
+.end-bg {
+    position: absolute;
+    background-size: cover;
+    bottom: 0;
+}
+.butterfly-white {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    width: 80px;
+}
+.pagetop {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    right: 25px;
+    bottom: 70px;
+}
+.text-box4 {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    bottom: 200px;
+    text-align: center;
+    left: 560px;
+}
+
 
 /************ 手機尺寸設定 ************/
 
