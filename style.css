@@ -11,10 +11,23 @@ body {
     width: 100%;
     z-index: 999;
 } */
-.navbar {
+/* .navbar {
     position: absolute;
     top: 20px;
     right: 20px;
+} */
+.title {
+    position: absolute;
+    top: 8vh;
+    left: 35px;
+    font-size: smaller;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu {
+    position: absolute;
+    top: 3vh;
+    right: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .gogo {
     position: absolute;
@@ -54,7 +67,12 @@ body {
     bottom: 40px;
     width: 400px;
 }
-
+.butterfly {
+    position: absolute;
+    width: 130px;
+    right: 400px;
+    top: 32vh;
+}
 .dog {
     position: absolute;
     bottom: 0;
@@ -159,167 +177,169 @@ body {
 
 
 
-    /************ 手機尺寸設定 ************/
+/************ 手機尺寸設定 ************/
 
 @media only screen and (max-width: 768px) {
-    .navbar {
-        position: absolute;
-        top: 10px;
-        right: 5px;
-    }
-    .gogo {
-        position: relative;
-        font-size: smaller;
-        top: 20vh;
-        left: 39%;
-    }
-    
-    .cloud {
-        position: relative;
-        top: 12vh;
-        left: 70%;
-        width: 120px;
-    }
-    
-    .cloud2 {
-        position: relative;
-        top: 0vh;
-        left: 50%;
-        width: 120px;
-    }
-    
-    .tree {
-        position: absolute;
-        bottom: 20px;
-        width: 100px;
-        left: 10px;
-    }
-    .mountain {
-        position: absolute;
-        left: 130px;
-        bottom: 20px;
-        width: 1000px;
-    }
-    .house {
-        position: absolute;
-        right: 0;
-        bottom: 20px;
-        width: 300px;
-    }
-    
-    .dog {
-        position: absolute;
-        bottom: 0;
-        animation: dog 3s linear infinite;
-    }
-    
-    @keyframes dog {
-        from {
-            transform: translateX(100vw);
-        }
-        to {
-            transform: translateX(-300px);
-        }
-    }
-    
-    .logo {
-        position: relative;
-        width: 80px;
-        top: 1vh;
-        left: 5%;
-    }
-    
-    .flower-img {
-        top: 35vh;
-        left: 50vh;
-        width: 60px;
-        animation: rotate 2.5s linear infinite;
-    }
-    @keyframes rotate {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(360deg);
-        }
-    }
-    
-    .flower {
-        position: absolute;
-        top: 35vh;
-        left: 20%;
-    }
-    
-    .text-box {
-        position: absolute;
-        font-size: 35px;
-        top: 25vh;
-        left: 28%;
-        height: 10vh;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    
-    .road {
-        position: absolute;
-        background: #433d3d;
-        height: 20px;
-        bottom: 0;
-        width: 100%;
-    }
-    
-    .row {
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
+.navbar {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+.gogo {
+    position: relative;
+    font-size: smaller;
+    top: 20vh;
+    left: 39%;
+}
 
+.cloud {
+    position: relative;
+    top: 12vh;
+    left: 70%;
+    width: 120px;
+}
+
+.cloud2 {
+    position: relative;
+    top: 0vh;
+    left: 50%;
+    width: 120px;
+}
+.tree {
+    position: absolute;
+    bottom: 20px;
+    width: 100px;
+    left: 10px;
+}
+.mountain {
+    position: absolute;
+    left: 130px;
+    bottom: 20px;
+    width: 1000px;
+}
+.house {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    width: 300px;
+}
+.butterfly {
+    position: absolute;
+    bottom: 100px;
+    width: 10px;
+}
+.dog {
+    position: absolute;
+    bottom: 0;
+    animation: dog 3s linear infinite;
+}
+
+@keyframes dog {
+    from {
+        transform: translateX(100vw);
+    }
+    to {
+        transform: translateX(-300px);
+    }
+}
+
+.logo {
+    position: relative;
+    width: 80px;
+    top: 1vh;
+    left: 5%;
+}
+
+.flower-img {
+    top: 35vh;
+    left: 50vh;
+    width: 60px;
+    animation: rotate 2.5s linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.flower {
+    position: absolute;
+    top: 35vh;
+    left: 20%;
+}
+
+.text-box {
+    position: absolute;
+    font-size: 35px;
+    top: 25vh;
+    left: 28%;
+    height: 10vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.road {
+    position: absolute;
+    background: #433d3d;
+    height: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+.row {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.col4 {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  /* 媒體查詢 - 針對螢幕寬度小於或等於 768px */
+  @media (max-width: 768px) {
     .col4 {
-        width: 100%;
-        float: left;
-        box-sizing: border-box;
-        padding: 10px;
-      }
-      
-      /* 媒體查詢 - 針對螢幕寬度小於或等於 768px */
-      @media (max-width: 768px) {
-        .col4 {
-          width: 50%;
-        }
-      }
-    
-    .header2-2 {
-        position: absolute;
-        bottom: 0;
+      width: 50%;
     }
-    
-    .footer {
-        flex-shrink: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
-      }
-    
-    .text-box2 {
-        position: absolute;
-        font-size: small;
-        margin-bottom: 0%;
-        left: 35%;
-        width: 350px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
+  }
+
+.header2-2 {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+.text-box2 {
+    position: absolute;
+    font-size: small;
+    margin-bottom: 0%;
+    left: 35%;
+    width: 350px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 }
   
   
-  /* 桌面尺寸設定 */
-  @media only screen and (min-width: 1024px) {
-    /* 在此設定桌面的樣式 */
-  
-    /* 例如，調整元素的排列方式 */
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-    }
-  
-    /* 可能還有其他桌面專用的樣式設定 */
+/* 桌面尺寸設定 */
+@media only screen and (min-width: 1024px) {
+  /* 在此設定桌面的樣式 */
+
+  /* 例如，調整元素的排列方式 */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
   }
+
+  /* 可能還有其他桌面專用的樣式設定 */
+}
   
