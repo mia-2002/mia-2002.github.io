@@ -180,10 +180,19 @@ body {
 /************ 手機尺寸設定 ************/
 
 @media only screen and (max-width: 768px) {
-.navbar {
+.title {
     position: absolute;
-    top: 10px;
-    right: 5px;
+    top: 8vh;
+    left: 20px;
+    font-size: smaller;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu {
+    position: absolute;
+    top: 3vh;
+    right: 8%;
+    width: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .gogo {
     position: relative;
@@ -195,14 +204,14 @@ body {
 .cloud {
     position: relative;
     top: 12vh;
-    left: 70%;
+    left: 30%;
     width: 120px;
 }
 
 .cloud2 {
     position: relative;
     top: 0vh;
-    left: 50%;
+    left: 10%;
     width: 120px;
 }
 .tree {
@@ -213,20 +222,21 @@ body {
 }
 .mountain {
     position: absolute;
-    left: 130px;
+    left: 0px;
     bottom: 20px;
-    width: 1000px;
+    width: 800px;
 }
 .house {
     position: absolute;
     right: 0;
     bottom: 20px;
-    width: 300px;
+    width: 230px;
 }
 .butterfly {
     position: absolute;
-    bottom: 100px;
-    width: 10px;
+    width: 90px;
+    top: 50vh;
+    left: 47%;
 }
 .dog {
     position: absolute;
@@ -247,7 +257,7 @@ body {
     position: relative;
     width: 80px;
     top: 1vh;
-    left: 5%;
+    left: 15px;
 }
 
 .flower-img {
@@ -273,9 +283,9 @@ body {
 
 .text-box {
     position: absolute;
-    font-size: 35px;
-    top: 25vh;
-    left: 28%;
+    font-size: 30px;
+    top: 30vh;
+    left: 32%;
     height: 10vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -321,7 +331,8 @@ body {
 
 .text-box2 {
     position: absolute;
-    font-size: small;
+    font-size: 8px;
+    align-items: center;
     margin-bottom: 0%;
     left: 35%;
     width: 350px;
