@@ -17,121 +17,120 @@ body {
     right: 20px;
 } */
 .title {
-    position: absolute;
-    top: 8vh;
-    left: 35px;
-    font-size: smaller;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+  top: 8vh;
+  left: 35px;
+  font-size: smaller;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .menu {
-    position: absolute;
-    top: 3vh;
-    right: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+  top: 3vh;
+  right: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .logo {
-    position: relative;
-    width: 90px;
-    left: 30px;
+  position: relative;
+  width: 90px;
+  left: 30px;
 }
 .bye {
-    position: absolute;
-    top: 40vh;
-    right: 380px;
+  position: absolute;
+  top: 40vh;
+  right: 380px;
 }
 .cloud {
-    position: absolute;
-    top: 35px;
-    right: 160px;
-    width: 250px;
+  position: absolute;
+  top: 35px;
+  right: 160px;
+  width: 250px;
 }
 
 .cloud2 {
-    position: absolute;
-    top: 70px;
-    right: 360px;
-    width: 230px;
+  position: absolute;
+  top: 70px;
+  right: 360px;
+  width: 230px;
 }
 
 .tree {
-    position: absolute;
-    bottom: 39px;
-    width: 270px;
-    left: 45px;
+  position: absolute;
+  bottom: 39px;
+  width: 270px;
+  left: 45px;
 }
 .mountain {
-    position: absolute;
-    left: 250px;
-    bottom: 40px;
-    width: 880px;
+  position: absolute;
+  left: 250px;
+  bottom: 40px;
+  width: 880px;
 }
 .letter {
-    position: absolute;
-    right: 500px;
-    bottom: 42px;
-    width: 70px;
+  position: absolute;
+  right: 500px;
+  bottom: 42px;
+  width: 70px;
 }
 .letter2 {
-    position: absolute;
-    right: 530px;
-    bottom: 82px;
-    width: 70px;
+  position: absolute;
+  right: 530px;
+  bottom: 82px;
+  width: 70px;
 }
 .mailbox {
-    position: absolute;
-    bottom: 30px;
-    right: 630px;
-    width: 250px;
+  position: absolute;
+  bottom: 30px;
+  right: 630px;
+  width: 250px;
 }
 .house {
-    position: absolute;
-    right: 0;
-    bottom: 40px;
-    width: 400px;
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+  width: 400px;
 }
 .butterfly {
-    position: absolute;
-    width: 130px;
-    right: 400px;
-    top: 35vh;
+  position: absolute;
+  width: 130px;
+  right: 400px;
+  top: 35vh;
 }
 .road {
-    position: absolute;
-    background: #433d3d;
-    height: 40px;
-    bottom: 0;
-    width: 100%;
+  position: absolute;
+  background: #433d3d;
+  height: 40px;
+  bottom: 0;
+  width: 100%;
 }
 .dog {
-    position: absolute;
-    bottom: 0;
-    animation: dog 5s linear infinite;
+  position: absolute;
+  bottom: 0;
+  animation: dog 5s linear infinite;
 }
 @keyframes dog {
-    from {
-        transform: translateX(-50vw);
-    }
-    to {
-        transform: translateX(1500px);
-    }
+  from {
+      transform: translateX(-50vw);
+  }
+  to {
+      transform: translateX(1500px);
+  }
 }
 .text-box {
-    position: absolute;
-    font-size: 20px;
-    top: 30vh;
-    left: 35%;
-    height: 10vh;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+  font-size: 20px;
+  top: 30vh;
+  left: 35%;
+  height: 10vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .page2-2 {
     background-color: #003f4b;
 }
 .long-image-container {
   position: absolute;
-  bottom: 0;
-  animation: long 7s linear infinite;
-  width: 1400px;
-  height: 70vh;
+  animation: long 20s linear infinite;
+  width: 100%;
+  height: 100vh;
   overflow: hidden;
 }
   
@@ -152,6 +151,11 @@ body {
     transform: translateX(-1400px); 
   }
 }
+.about {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
 .page2-3 {
     background: #ffffff;
     height: 100vh;
@@ -165,6 +169,13 @@ body {
     font-size: 60px;
     color: rgb(45, 45, 45);
     top: 110px;
+}
+.Jane {
+  position: relative;
+  bottom: 0px;
+}
+.row1 {
+  margin: 400px;
 }
 .jan1 {
     position: relative;
@@ -277,6 +288,15 @@ body {
     opacity: 1; /* 鼠标悬停时显示透明图层 */
   }
 
+.row-0 {
+  height: 300px;
+}
+.calendar {
+  position: absolute;
+  left: 460px;
+  top: 10px;
+}
+
 .page2-4 {
     background: #ffffff;
     height: 100vh;
@@ -296,16 +316,17 @@ body {
     position: absolute;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
-    right: 25px;
-    bottom: 70px;
+    right: 35px;
+    bottom: 80px;
 }
 .text-box4 {
     position: absolute;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
-    bottom: 200px;
+    bottom: 140px;
     text-align: center;
-    left: 560px;
+    left: 570px;
+    color: navy;
 }
 
 
@@ -462,160 +483,174 @@ body {
         transform: translateX(-700px); 
       }
     }
-    .page2-3 {
-        background: #ffffff;
-        height: 100vh;
-    }
-    .title1 {
-        position: absolute;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-style: oblique;
-        width: 150px;
-        left: 10%;
-        font-size: 30px;
-        color: rgb(45, 45, 45);
-        top: 30px;
-    }
-    .jan1 {
-        position: relative;
-        width: 130px;
-        top: 100px;
-        left: 20%;
-        display: inline-block;
-      }
-      
-      .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(175, 175, 175, 0.5); /* 设置透明度为0.5的黑色背景 */
-        opacity: 0; /* 初始状态下透明图层隐藏 */
-        transition: opacity 0.3s ease; /* 添加过渡效果 */
-      }
-      
-      .jan1:hover .overlay {
-        opacity: 1; /* 鼠标悬停时显示透明图层 */
-      }
-    .jan2 {
-      position: relative;
-      width: 130px;
-      top: 100px;
-      left: 20%;
-      display: inline-block;
-    }
+  .about {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    bottom: 280px;
+    font-size: 10px;
+  }
+  .page2-3 {
+      background: #ffffff;
+      height: 100vh;
+      justify-content: center;
+  }
+  .title1 {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    width: 150px;
+    left: 10%;
+    font-size: 30px;
+    color: rgb(45, 45, 45);
+    top: 30px;
+  }
+  .jan1 {
+    position: relative;
+    width: 130px;
+    top: 100px;
+    left: 20%;
+    display: inline-block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(175, 175, 175, 0.5); /* 设置透明度为0.5的黑色背景 */
+    opacity: 0; /* 初始状态下透明图层隐藏 */
+    transition: opacity 0.3s ease; /* 添加过渡效果 */
+  }
+  
+  .jan1:hover .overlay {
+    opacity: 1; /* 鼠标悬停时显示透明图层 */
+  }
+  .jan2 {
+    position: relative;
+    width: 130px;
+    top: 100px;
+    left: 20%;
+    display: inline-block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(175, 175, 175, 0.5); /* 设置透明度为0.5的黑色背景 */
+    opacity: 0; /* 初始状态下透明图层隐藏 */
+    transition: opacity 0.3s ease; /* 添加过渡效果 */
+  }
+  
+  .jan2:hover .overlay {
+    opacity: 1; /* 鼠标悬停时显示透明图层 */
+  }
+  .jan3 {
+    position: relative;
+    width: 130px;
+    top: 100px;
+    left: 20%;
+    display: inline-block;
+  }
     
-    .overlay {
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(175, 175, 175, 0.5); /* 设置透明度为0.5的黑色背景 */
+    opacity: 0; /* 初始状态下透明图层隐藏 */
+    transition: opacity 0.3s ease; /* 添加过渡效果 */
+  }
+      
+  .jan3:hover .overlay {
+    opacity: 1; /* 鼠标悬停时显示透明图层 */
+  }
+  .jan4 {
+    position: relative;
+    width: 130px;
+    top: 100px;
+    left: 20%;
+    display: inline-block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(149, 148, 148, 0.5); /* 设置透明度为0.5的黑色背景 */
+    opacity: 0; /* 初始状态下透明图层隐藏 */
+    transition: opacity 0.3s ease; /* 添加过渡效果 */
+  }
+  
+  .jan4:hover .overlay {
+    opacity: 1; /* 鼠标悬停时显示透明图层 */
+  }
+  .jan5 {
+    position: relative;
+    width: 130px;
+    top: 100px;
+    left: 20%;
+    display: inline-block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(175, 175, 175, 0.5); /* 设置透明度为0.5的黑色背景 */
+    opacity: 0; /* 初始状态下透明图层隐藏 */
+    transition: opacity 0.3s ease; /* 添加过渡效果 */
+  }
+  
+  .jan5:hover .overlay {
+    opacity: 1; /* 鼠标悬停时显示透明图层 */
+  }
+  
+  .page2-4 {
+      background: #ffffff;
+      height: 100vh;
+  }
+  .calendar {
+    position: relative;
+    top: 90px;
+    left: 3%;
+    width: 390px;
+  }
+  .end-bg {
       position: absolute;
-      top: 0;
-      left: 0;
+      background-size: cover;
+      bottom: 0;
       width: 100%;
-      height: 100%;
-      background-color: rgba(175, 175, 175, 0.5); /* 设置透明度为0.5的黑色背景 */
-      opacity: 0; /* 初始状态下透明图层隐藏 */
-      transition: opacity 0.3s ease; /* 添加过渡效果 */
-    }
-    
-    .jan2:hover .overlay {
-      opacity: 1; /* 鼠标悬停时显示透明图层 */
-    }
-    .jan3 {
-        position: relative;
-        width: 130px;
-        top: 100px;
-        left: 20%;
-        display: inline-block;
-      }
-      
-      .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(175, 175, 175, 0.5); /* 设置透明度为0.5的黑色背景 */
-        opacity: 0; /* 初始状态下透明图层隐藏 */
-        transition: opacity 0.3s ease; /* 添加过渡效果 */
-      }
-      
-      .jan3:hover .overlay {
-        opacity: 1; /* 鼠标悬停时显示透明图层 */
-      }
-      .jan4 {
-        position: relative;
-        width: 130px;
-        top: 100px;
-        left: 20%;
-        display: inline-block;
-      }
-      
-      .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(149, 148, 148, 0.5); /* 设置透明度为0.5的黑色背景 */
-        opacity: 0; /* 初始状态下透明图层隐藏 */
-        transition: opacity 0.3s ease; /* 添加过渡效果 */
-      }
-      
-      .jan4:hover .overlay {
-        opacity: 1; /* 鼠标悬停时显示透明图层 */
-      }
-      .jan5 {
-        position: relative;
-        width: 130px;
-        top: 100px;
-        left: 20%;
-        display: inline-block;
-      }
-      
-      .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(175, 175, 175, 0.5); /* 设置透明度为0.5的黑色背景 */
-        opacity: 0; /* 初始状态下透明图层隐藏 */
-        transition: opacity 0.3s ease; /* 添加过渡效果 */
-      }
-      
-      .jan5:hover .overlay {
-        opacity: 1; /* 鼠标悬停时显示透明图层 */
-      }
-    
-    .page2-4 {
-        background: #ffffff;
-        height: 100vh;
-    }
-    .end-bg {
-        position: absolute;
-        background-size: cover;
-        bottom: 0;
-        width: 100%;
-    }
-    .butterfly-white {
-        position: absolute;
-        bottom: 20px;
-        right: 3%;
-        width: 60px;
-    }
-    .pagetop {
-        position: absolute;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        right: 3%;
-        bottom: 45px;
-    }
-    .text-box4 {
-        position: absolute;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 10px;
-        height: auto;
-        bottom: 25px;
-        text-align: center;
-        left: 35%;
-    }
+  }
+  .butterfly-white {
+      position: absolute;
+      bottom: 20px;
+      right: 3%;
+      width: 60px;
+  }
+  .pagetop {
+      position: absolute;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      right: 3%;
+      bottom: 45px;
+  }
+  .text-box4 {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    height: auto;
+    bottom: 25px;
+    text-align: center;
+    left: 35%;
+  }
 }
